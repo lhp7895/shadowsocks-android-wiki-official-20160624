@@ -13,7 +13,7 @@ https://play.google.com/store/apps/details?id=tw.com.quickmark
 1. Broken VPNService implementation, especially for IPv6;
 2. Aggressive (or called broken) background service killing policy.
 
-### Why does Shadowsocks consume so much battery?
+### Why does Shadowsocks consume so much battery on Android 5.0+?
 
 As Shadowsocks takes over the whole device network, any battery used by network activities from other apps are also counted as those from Shadowsocks. So, the battery usage of Shadowsocks equals to the sum of all the network activities of your device. Shadowsocks itself is a totally I/O bound application on modern Android devices, which is expected not to consume any notable battery.
 
