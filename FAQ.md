@@ -1,21 +1,20 @@
-Q1: What's the recommended QR code scanner? 
+### What's the recommended QR code scanner? 
 
-A1: https://play.google.com/store/apps/details?id=tw.com.quickmark
+https://play.google.com/store/apps/details?id=tw.com.quickmark
 
-***
+### Why is NAT mode deprecated?
 
-Q2: Why is NAT mode deprecated?
+1. Requiring ROOT permission;
+2. No IPv6 support;
+3. No UDP relay support.
 
-A2: 1) Requiring ROOT permission. 2) No IPv6 support. 3) No UDP relay support.
+### Why are MIUI, EMUI and other AOSPs in China not officially supported?
 
-***
+1. Broken VPNService implementation, especially for IPv6;
+2. Aggressive (or called broken) background service killing policy.
 
-Q3: Why are MIUI, EMUI and other AOSPs in China not officially supported?
+### Why does Shadowsocks consume so much battery?
 
-A3: 1) Broken VPNService implementation, especially for IPv6. 2) Aggressive (or called broken) background service killing policy.
+As Shadowsocks takes over the whole device network, any battery used by network activities from other apps are also counted as those from Shadowsocks. So, the battery usage of Shadowsocks equals to the sum of all the network activities of your device. Shadowsocks itself is a totally I/O bound application on modern Android devices, which is expected not to consume any notable battery.
 
-***
-
-Q4: Why does Shadowsocks consume so much battery?
-
-A4: As Shadowsocks takes over the whole device network, any battery used by other apps' network activities are also calculated as Shadowsocks'. So, the battery usage of shadowsocks equals the sum of all the network activities of your device. Shadowsocks itself is a totally I/O bound application on modern Android devices, which is expected not to consume any notable battery.
+So if you notice a significant increase in battery usage after you use Shadowsocks, it's most likely caused by other apps. For example, Google Play services can consume more battery after being able to connecting to Google, etc.
