@@ -19,6 +19,16 @@ As Shadowsocks takes over the whole device network, any battery used by network 
 
 So if you notice a significant increase in battery usage after you use Shadowsocks, it's most likely caused by other apps. For example, Google Play services can consume more battery after being able to connecting to Google, etc.
 
+### It works fine under Wi-Fi/3G/4G but stops working in another?
+
+That's a bug of your ROM. Report it to the ROM developer. You can also try doing a manual reset and hope for the best.
+
+### UI tips
+
+* Remove the default profile to remove ads;
+* Tap the number to enter the port you wish to use; (if the keyboard doesn't pop up automatically for some reason)
+* You can swipe to remove profiles and long press to reorder them.
+
 ### Troubleshooting
 
 Cannot connect to server:
