@@ -18,3 +18,13 @@ https://play.google.com/store/apps/details?id=tw.com.quickmark
 As Shadowsocks takes over the whole device network, any battery used by network activities from other apps are also counted as those from Shadowsocks. So, the battery usage of Shadowsocks equals to the sum of all the network activities of your device. Shadowsocks itself is a totally I/O bound application on modern Android devices, which is expected not to consume any notable battery.
 
 So if you notice a significant increase in battery usage after you use Shadowsocks, it's most likely caused by other apps. For example, Google Play services can consume more battery after being able to connecting to Google, etc.
+
+### Troubleshooting
+
+Cannot connect to server:
+
+1. If an upgrade breaks anything, do a manual reset first by pressing Reset at the end of the list;
+2. Check your config;
+3. Wipe app data.
+
+Crash: [Submit an issue](https://github.com/shadowsocks/shadowsocks-android/issues/new) with logcat attached, or submit a crash report to Google Play. Then, try wiping app data.
