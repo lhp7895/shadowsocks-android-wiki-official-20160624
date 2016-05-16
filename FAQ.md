@@ -27,7 +27,8 @@ That's a bug of your ROM. Report it to the ROM developer. You can also try doing
 
 * Remove the default profile to remove ads;
 * Tap the number to enter the port you wish to use; (if the keyboard doesn't pop up automatically for some reason)
-* You can swipe to remove profiles and long press to reorder them.
+* You can swipe to remove profiles and long press to reorder them;
+* Use Tasker integration to create a desktop widget.
 
 ### Troubleshooting
 
