@@ -1,3 +1,20 @@
+### Troubleshooting
+
+Cannot connect to server:
+
+1. If an upgrade breaks anything, do a manual reset first by pressing Reset at the end of the list;
+2. Check your config;
+3. Wipe app data.
+
+Crash: [Submit an issue](https://github.com/shadowsocks/shadowsocks-android/issues/new) with logcat attached, or submit a crash report to Google Play. Then, try wiping app data.
+
+### UI tips
+
+* Remove the default profile to remove ads;
+* Tap the number to enter the port you wish to use; (if the keyboard doesn't pop up automatically for some reason)
+* You can swipe to remove profiles and long press to reorder them;
+* Use Tasker integration to create a desktop widget.
+
 ### What's the recommended QR code scanner? 
 
 https://play.google.com/store/apps/details?id=tw.com.quickmark
@@ -22,20 +39,3 @@ So if you notice a significant increase in battery usage after you use Shadowsoc
 ### It works fine under Wi-Fi/3G/4G but stops working in another?
 
 That's a bug of your ROM. Report it to the ROM developer. You can also try doing a manual reset and hope for the best.
-
-### UI tips
-
-* Remove the default profile to remove ads;
-* Tap the number to enter the port you wish to use; (if the keyboard doesn't pop up automatically for some reason)
-* You can swipe to remove profiles and long press to reorder them;
-* Use Tasker integration to create a desktop widget.
-
-### Troubleshooting
-
-Cannot connect to server:
-
-1. If an upgrade breaks anything, do a manual reset first by pressing Reset at the end of the list;
-2. Check your config;
-3. Wipe app data.
-
-Crash: [Submit an issue](https://github.com/shadowsocks/shadowsocks-android/issues/new) with logcat attached, or submit a crash report to Google Play. Then, try wiping app data.
