@@ -35,7 +35,7 @@ https://play.google.com/store/apps/details?id=tw.com.quickmark
 
 * For Android N+: Use quick switch tile in Quick Settings;
 * Use Tasker integration;
-* For Android 6.0-: Add a profile with per-app proxy enabled for Shadowsocks only, bypass mode off.
+* Add a profile with per-app proxy enabled for Shadowsocks only, bypass mode off.
 
 ### Why does Shadowsocks consume so much battery on Android 5.0+?
 
